@@ -5,4 +5,4 @@ Demonstrated skills:
 HTML
 CSS
 Flexbox
-Live Demo: 
+Live Demo: https://jonaskub.github.io/Landing-page/
