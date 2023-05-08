@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+}
+/*header*/
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.left-links {
+    display: flex;
+    margin-right:auto ;
+    align-items: center;
+    padding: 16px;
+    padding-left: 170px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    gap:16px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* prasideda main page*/
+.Information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/*part1*/
+
+.part1 {
+    display: flex;
+    background-color: #1f2937;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.text1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.text2 {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button {
+    background-color: blue;
+    color: #e5e7eb;
+    padding: 10px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    width: 500px;
+    height: 200px;
+}
+
+/*part2*/
+.part2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.text3 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+
+/*part3*/
+
+.part3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 150px;
+}
+
+.qoute {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    text-align: center;
+}
+
+.sign {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+/*part4*/
+.part4 {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.bluebox {
+    background-color: #3882f6;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    gap: 250px;
+}
+
+.texttime {
+    color: #e5e7eb;
+}
+
+.button2 {
+    border: 3px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    padding: 10px;
+    width: 80px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+    
+}
+
+/*footer*/
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 100px;
+    color: #e5e7eb;
+}
